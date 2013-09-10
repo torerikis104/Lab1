@@ -3,49 +3,52 @@
 <!--
   LAB1
   Navn: Tor Erik Kaalaas
-  Jeg samarbeidet med: 
+  Jeg samarbeidet med: 	Jens og Behzad i gruppa vår: Workaholics.
+						Har fått litt hjelp til å rette opp noen feil i .js filen min.
   Jeg har jobbet med: Forstå og implentere GitHub, html, css, js
-  Tiden jeg har brukt på oppgaven: 8 timer med MASSE knot og frem og tilbake :)
+  Tiden jeg har brukt på oppgaven: 10t++ timer med MASSE knot og frem og tilbake :)
 -->
 
 <html>
 
 <head>
 <meta charset="utf-8"><title>Programmeringsspråk (versjon 0.0.1)</title>
-<link rel="stylesheet" href="proglangs.css" type="text/css" media="all" />
+<link rel="stylesheet" href="proglangs.css" type="text/css" media="all"/>
+<script type="text/javascript" src="proglangs.js"></script>
 </head>
 	
 <body>
-<h1 class="h1">Programmeringsspråk</h1>
+<h1 class="listeh1">Programmeringsspråk</h1>
 	<ul >
-		<li class="a">ActionScript</li>
-		<li class="b">AppleScript</li>
-		<li class="c">Asp</li>
-		<li class="a">BASIC</li>
-		<li class="b">C</li>
-		<li class="c">C++</li>
-		<li class="a">Clojure</li>
-		<li class="b">COBOL</li>
-		<li class="c">ColdFusion</li>
-		<li class="a">Erlang</li>
-		<li class="b">Fortran</li>
-		<li class="c">Groovy</li>
-		<li class="a">Haskell</li>
-		<li class="b">Java</li>
-		<li class="c">JavaScript</li>
-		<li class="a">Lisp</li>
-		<li class="b">Perl</li>
-		<li class="c">PHP</li>
-		<li class="a">Python</li>
-		<li class="b">Ruby</li>
-		<li class="c">Scala</li>
-		<li class="a">Scheme</li>
+		<li class="listea">ActionScript</li>
+		<li class="listeb">AppleScript</li>
+		<li class="listec">Asp</li>
+		<li class="listea">BASIC</li>
+		<li class="listeb">C</li>
+		<li class="listec">C++</li>
+		<li class="listea">Clojure</li>
+		<li class="listeb">COBOL</li>
+		<li class="listec">ColdFusion</li>
+		<li class="listea">Erlang</li>
+		<li class="listeb">Fortran</li>
+		<li class="listec">Groovy</li>
+		<li class="listea">Haskell</li>
+		<li class="listeb">Java</li>
+		<li class="listec">JavaScript</li>
+		<li class="listea">Lisp</li>
+		<li class="listeb">Perl</li>
+		<li class="listec">PHP</li>
+		<li class="listea">Python</li>
+		<li class="listeb">Ruby</li>
+		<li class="listec">Scala</li>
+		<li class="listea">Scheme</li>
 	</ul>
 
-<form class="form">
+<form class="listeform">
 	
-	<select>
-	<option value="None">None</option>
+	<select id="select_id" onchange="endring()">
+	
+	<option value=""></option>
 	<option value="ActionScript">ActionScript</option>
 	<option value="Applescript">AppleScript</option>
 	<option value="Asp">Asp</option>
@@ -70,7 +73,7 @@
 	</select>
 </form>
 
-		<p class="p">Du har ikke valgt noe språk</p>
+		<p id="outputbox">Du har ikke valgt noe språk</p>
 
 </body>
 
