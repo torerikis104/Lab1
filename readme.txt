@@ -1,6 +1,17 @@
+﻿Innhold: IT og Informasjonssystemer kull 2013
+Kurs: IS-104 - Tor Erik Kaalaas
+Innhold: HTML, CSS, JavaScript
+I denne repositoryen jobber jeg med programmeringsspråk i lab oppgaver.
+-----------------------------------
+
+19.09.13
+Endret CSS
+Ednre HTML slik at den passer til oppgave
+Committed ny versjon i GitHub som svar på deloppgave 1 i Lab2
+-----------------------------------
 Kontrollspørsmål lab1
 Tor Erik
-----------------------------------
+
 
 1)	Classes kan brukes flere ganger i et dokument, mens id er unikt. 
 Det er en fordel å bruke class når man skal bruke et element ofte i dokumentet, feks 

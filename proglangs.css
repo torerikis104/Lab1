@@ -1,32 +1,32 @@
-.listeh1 
-{
-font-family:verdana;
-text-align:center;
-font-size:18px;
-}
-#outputbox
-{
-text-align:center;
-}
-.listea
-{
-color:red;
-text-align:center;
-list-style-type:none
-}
-.listeb
-{
-color:blue;
-text-align:center;
-list-style-type:none
-}
-.listec
-{
-color:green;
-text-align:center;
-list-style-type:none
-}
-.listeform
-{
-text-align:center;
-}
+body {/*Stylingen under gjelder alle elementer i body, dersom ikke undertagger i body er stylet med egen tag*/
+  padding-left: 11em;/*Avstand fra venstre marg*/
+  font-family: Georgia, "Times New Roman",/*Skrifttype*/
+        Times, serif;
+  color: purple;/*Skriftfarge*/
+  background-color: #d8da3d }/*Farge på bakgrunn*/
+ul.navigering {/*Styler listen til venstre på siden (Hjem-Kronoligisk-Hierakrisk-Alfabetisk*/
+  list-style-type: none;/*Fjerner markeringer før hvert liste element*/
+  padding: 0;/*Når jeg endrer på denne, skjer mye av det samme som når jeg endrer "left"*/
+  margin: 0;/*Når jeg endrer på denne, skjer mye av det samme som når jeg endrer "top"*/
+  position: absolute;/*Endrer seg ikke om man mandrer størrelse på siden*/
+  top: 2em;/*Avstand fra topmarg*/
+  left: 1em;/*Avstand fra venstre marg*/
+  width: 9em }/*Bredde på menyen*/
+h1 {/*Denne styler innhold i <h1>/Overskrift*/
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navigering li {/*Denne styler og posisjonerer elementet <li> = Menyen til venstre*/
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navigering a {/*Denne styler teskten i Menyen til venstre*/
+  text-decoration: none }
+a:link {/*Teksten i Menyen til venstre er blå når man ikke har klikket på den....*/
+  color: blue }
+a:visited {/*....og lilla når man har linket videre. slik kan man se hvilken link man har vært på tidligere*/
+  color: purple }
+address {/*Denne styler "Laget.......av Tor Erik elementet = <adress>*/
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
