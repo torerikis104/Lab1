@@ -2,8 +2,8 @@ body {/*Stylingen under gjelder alle elementer i body, dersom ikke undertagger i
   padding-left: 11em;/*Avstand fra venstre marg*/
   font-family: Georgia, "Times New Roman",/*Skrifttype*/
         Times, serif;
-  color: purple;/*Skriftfarge*/
-  background-color: #d8da3d }/*Farge på bakgrunn*/
+  color: Black;/*Skriftfarge*/
+  background-color: #086FA1 }/*Farge på bakgrunn*/
 ul.navigering {/*Styler listen til venstre på siden (Hjem-Kronoligisk-Hierakrisk-Alfabetisk*/
   list-style-type: none;/*Fjerner markeringer før hvert liste element*/
   padding: 0;/*Når jeg endrer på denne, skjer mye av det samme som når jeg endrer "left"*/

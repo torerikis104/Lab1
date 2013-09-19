@@ -3,6 +3,19 @@ Kurs: IS-104 - Tor Erik Kaalaas
 Innhold: HTML, CSS, JavaScript
 I denne repositoryen jobber jeg med programmeringsspråk i lab oppgaver.
 -----------------------------------
+19.09.13 Kontrollsdpørsmål Lab2:
+Modell i lab-oppgaven min er blandt annet at bruker kan velge programmeringsspråk i rullegardin (input) og at 
+han/hun får ut et svar eller en respons (output). I mine koder er det HTML og CSS som gir bruker et grensesnitt, og JavaScript
+som gir siden interaktivitet, altså at det skjer noe når bruker klikker på ting med mus eller skriver noe med tastatur.
+Når en bruker med oppkobling til internet, en PC, telefon, nettbrett eller liknende, sier vi at han bruker en Controller.
+Ved å bruke kontroller enhet (feks en PC med et operativsystem og en webbrowser) sammen med en internet oppkobling, kan bruker 
+se og til en viss grad manipulere innholdet på en webiside, dette er View. View i min oppgave er altså resultatet av min Model, brukers 
+Kontroler og koblingen mot internet og en webserver.
+----------------------------------
+19.09.13
+Endret .js fil, la til en alert function
+Endret <ul> slik at den utfører JavaScript alerten når man klikker på de 3 siste linkene i menyen til venstre
+Endre bakgrunnsfarge i <body> og tekstfarge i <body>
 19.09.13
 Endret output i HTML, og knyttet dette til .js fil, slik at teksten endres ettersom hvilket valg man gjør i rullegardin
 19.09.13
