@@ -3,7 +3,8 @@ Kurs: IS-104 - Tor Erik Kaalaas
 Innhold: HTML, CSS, JavaScript
 I denne repositoryen jobber jeg med programmeringsspråk i lab oppgaver.
 -----------------------------------
-
+19.09.13
+Endret output i HTML, og knyttet dette til .js fil, slik at teksten endres ettersom hvilket valg man gjør i rullegardin
 19.09.13
 Endret CSS
 Ednre HTML slik at den passer til oppgave
